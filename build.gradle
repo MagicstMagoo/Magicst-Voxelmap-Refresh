@@ -1,42 +1,68 @@
 plugins {
-	id 'fabric-loom' version '0.11-SNAPSHOT'
+	id 'fabric-loom' version '0.12-SNAPSHOT'
 	id 'maven-publish'
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
-archivesBaseName = project.archives_base_name
-version = project.mod_version
-group = project.maven_group
-
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
+	maven { url 'https://maven.terraformersmc.com/releases/' }
+	// maven { url 'https://maven.quiltmc.org/repository/release/' }
+}
+
+ext.configFile = file "build.properties"
+
+configFile.withReader {
+	def prop = new Properties()
+	prop.load(it)
+	project.ext.config = new ConfigSlurper().parse prop
 }
 
 dependencies {
-	// To change the versions see the gradle.properties file
-	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	minecraft "com.mojang:minecraft:${config.minecraft_version}"
+	mappings "net.fabricmc:yarn:${config.mappings_version}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${config.fabric_loader_version}"
+	implementation "com.google.code.findbugs:jsr305:3.0.2"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	//modImplementation "net.fabricmc.fabric-api:fabric-api:" + config.fabric_version
+
+	include(modImplementation(fabricApi.module("fabric-resource-loader-v0", config.fabric_api_version)))
+
+	modCompileOnly "com.terraformersmc:modmenu:${config.mod_menu_version}"
+}
+
+group = config.group
+archivesBaseName = config.mod_file_name + '-' + config.minecraft_version_out
+version = config.mod_version
+
+if (version.endsWith('-dev')) {
+	version += "." + new Date().format('yyyyMMdd.HHmmss')
 }
 
 processResources {
-	inputs.property "version", project.version
+	// Exclude the GIMP image files
+	exclude '**/*.xcf'
+	exclude '**/xcf'
+
+	// this will ensure that this task is redone when the versions change.
+	//inputs.property "minecraft_version", project.config.minecraft_version
+
+	inputs.property "mod_version", config.mod_version
 
 	filesMatching("fabric.mod.json") {
-		expand "version": project.version
+		expand "mod_version": config.mod_version
 	}
 }
 
 tasks.withType(JavaCompile).configureEach {
+	// ensure that the encoding is set to UTF-8, no matter what the system default is
+	// this fixes some edge cases with special characters not displaying correctly
+	// see http://yodaconditions.net/blog/fix-for-java-file-encoding-problems-with-gradle.html
+	// If Javadoc is generated, this must be specified in that task too.
+	it.options.encoding = "UTF-8"
+
 	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
 	it.options.release = 17
 }
@@ -54,19 +80,22 @@ jar {
 	}
 }
 
-// configure the maven publication
+tasks.publish.dependsOn build
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
+			artifactId = "malilib-303119"
+			version = "${config.minecraft_version.replace(".", "_")}"
+			// add all the jars that should be sincluded when publishing to maven
+			//artifact(jar)             { builtBy remapJar }
 			from components.java
 		}
 	}
 
-	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
 	repositories {
-		// Add repositories to publish to here.
-		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
+		mavenLocal()
+		maven {
+			url("$rootDir/publish")
+		}
 	}
 }
