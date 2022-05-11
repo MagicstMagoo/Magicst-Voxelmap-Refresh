@@ -18,6 +18,6 @@
  
 依赖:
 
-- [Fabric Loader](https://fabricmc.net/use/) >= 0.13.3
+- [Fabric Loader](https://fabricmc.net/use/) >= 0.14.3
 
 

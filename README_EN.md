@@ -16,7 +16,7 @@ Use by `M` to open the setting GUI. And you can also use [Mod Menu](https://www.
 
 Depend:
 
-- [Fabric Loader](https://fabricmc.net/use/) >= 0.13.3
+- [Fabric Loader](https://fabricmc.net/use/) >= 0.14.3
 
 If you like this project
 You can give me a free of star or watching  XD
