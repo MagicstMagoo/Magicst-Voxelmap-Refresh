@@ -10,7 +10,7 @@ jobs:
         # Use these Java versions
         java: [ 17 ]
         # and run on both Linux and Windows
-        os: [ ubuntu-20.04 ]
+        os: [ ubuntu-22.04 ]
         branch: [master, snapshot]
     runs-on: ${{ matrix.os }}
     steps:
