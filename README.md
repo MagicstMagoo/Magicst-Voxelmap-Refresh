@@ -5,7 +5,7 @@
 ### 嗨嗨 这边是 voxelmap 的1.19快照版的分支 当我有时间会支援一下快照版本 但是需要自己编译使用 目前我只编译发布正式版的 voxelmap
 
 [![License](https://img.shields.io/github/license/MagicstMagoo/Magicst-Voxelmap-Refresh?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![MC Versions](https://img.shields.io/badge/For%20MC-1.18%20-red?style=flat-square)](https://io.magicst.cn/bucket)
+[![MC Versions](https://img.shields.io/badge/For%20MC-1.19-22w19a%20-red?style=flat-square)](https://io.magicst.cn/bucket)
 [![Issues](https://img.shields.io/github/issues/MagicstMagoo/Magicst-Voxelmap-Refresh?style=flat-square)](https://github.com/MagicstMagoo/Magicst-Voxelmap-Refresh/issues)
 [![Release](https://img.shields.io/badge/release-1.18.2--build%2Bdev.5-blue?style=flat-square)](https://github.com/MagicstMagoo/Magicst-Voxelmap-Refresh/releases/tag/Release)
 [![Java CI with gradle](https://img.shields.io/github/workflow/status/MagicstMagoo/Magicst-Voxelmap-Refresh/build?label=Build&style=flat-square)](https://github.com/MagicstMagoo/Magicst-Voxelmap-Refresh/.github/workflows/build.yml)
@@ -18,6 +18,6 @@
  
 依赖:
 
-- [Fabric Loader](https://fabricmc.net/use/) >= 0.14.3
+- [Fabric Loader](https://fabricmc.net/use/) >= 0.14.5
 
 
