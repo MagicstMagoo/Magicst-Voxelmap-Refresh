@@ -1,4 +1,4 @@
-package cn.mamiyaotaru.voxelmap;
+package cn.magicst.mamiyaotaru.voxelmap;
 
 import cn.magicst.mamiyaotaru.voxelmap.gui.overridden.EnumOptionsMinimap;
 import cn.magicst.mamiyaotaru.voxelmap.interfaces.ISubSettingsManager;
@@ -10,13 +10,13 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.PrintWriter;
-import net.minecraft.class_310;
+//import net.minecraft.class_310;
 
 public class RadarSettingsManager
   implements ISubSettingsManager {
   public final int SIMPLE = 1;
   public final int FULL = 2;
-  public class_310 game;
+  //public class_310 game;
   private boolean somethingChanged;
   public int radarMode = 2;
   public boolean showRadar = true;

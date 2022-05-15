@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "voxelmap",
-  "version": "22w17a-build+beta.1",
+  "version": "22w19a-build+beta.1",
   "name": "Voxelmap",
   "description": "Minimap and world map",
   "authors": [
