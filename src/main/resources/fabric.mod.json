@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "voxelmap",
-  "version": "22w19a-build+beta.1",
+  "version": "1.19-rc2-build+alpha.1",
   "name": "Voxelmap",
   "description": "Minimap and world map",
   "authors": [
@@ -11,7 +11,7 @@
     "suki_Eirin"
   ],
   "contact": {
-    "homepage": "https://minecraft.curseforge.com/projects/voxelmap"
+    "homepage": "https://github.com/MagicstMagoo/Magicst-Voxelmap-Refresh"
   },
   "icon": "assets/icon.png",
   "environment": "client",
@@ -24,7 +24,7 @@
     "mixin.voxelmap.json"
   ],
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.6",
     "fabric": "*"
   }
 }
