@@ -12,12 +12,12 @@
 [![Github Release Downloads](https://img.shields.io/github/downloads/MagicstMagoo/Magicst-Voxelmap-Refresh/total?label=Github%20Release%20Downloads&style=flat-square)](https://github.com/MagicstMagoo/Magicst-Voxelmap-Refresh/releases)
 
 
-使用 `M` 打开配置 GUI. 你也可以使用 [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) 进行配置
+使用 `M` 打开 GUI. 你也可以使用 [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) 进行配置
 
 快照版本不更新辣 等下一个正式版发布 有需求的小伙伴可以下载源码编译快照版本的 voxelmap
 
 依赖:
 
-- [Fabric Loader](https://fabricmc.net/use/) >= 0.13.3
+- [Fabric Loader](https://fabricmc.net/use/) >= 0.14.6
 
 

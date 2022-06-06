@@ -13,12 +13,12 @@
 [![Github Release Downloads](https://img.shields.io/github/downloads/MagicstMagoo/Magicst-Voxelmap-Refresh/total?label=Github%20Release%20Downloads&style=flat-square)](https://github.com/MagicstMagoo/Magicst-Voxelmap-Refresh/releases)
 
 
-Use by `M` to open the setting GUI. And you can also use [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) to setting.
+Use by `M` to open the GUI. And you can also use [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) to setting.
 
 
 Depend:
 
-- [Fabric Loader](https://fabricmc.net/use/) >= 0.13.3
+- [Fabric Loader](https://fabricmc.net/use/) >= 0.14.6
 
 If you like this project
 You can give me a free of star or watching  XD
