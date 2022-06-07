@@ -60,7 +60,4 @@
  }
 
 
-/* Location:              D:\系统文件夹\桌面\voxelmap-1.19-1.11.3.jar!\cn.magicst.mamiyaotaru.voxelmap\gui\GuiSlotDimensions$DimensionItem.class
- * Java compiler version: 17 (61.0)
- * JD-Core Version:       1.1.3
- */
+
