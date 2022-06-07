@@ -23,7 +23,7 @@
       "tick()V": "Lnet/minecraft/class_310;method_1574()V"
     },
     "com/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinChatListenerHud": {
-      "onChatMessage(Lnet/minecraft/network/MessageType;Lnet/minecraft/text/Text;Ljava/util/UUID;)V": "Lnet/minecraft/class_335;method_1794(Lnet/minecraft/class_2556;Lnet/minecraft/class_2561;Ljava/util/UUID;)V"
+      "onChatMessage": "Lnet/minecraft/class_335;method_1794(Lnet/minecraft/class_2556;Lnet/minecraft/class_2561;Lnet/minecraft/class_7436;)V"
     },
     "com/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinClientPlayerEntity": {
       "sendChatMessage(Ljava/lang/String;)V": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
@@ -54,7 +54,7 @@
         "tick()V": "Lnet/minecraft/class_310;method_1574()V"
       },
       "com/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinChatListenerHud": {
-        "onChatMessage(Lnet/minecraft/network/MessageType;Lnet/minecraft/text/Text;Ljava/util/UUID;)V": "Lnet/minecraft/class_335;method_1794(Lnet/minecraft/class_2556;Lnet/minecraft/class_2561;Ljava/util/UUID;)V"
+        "onChatMessage": "Lnet/minecraft/class_335;method_1794(Lnet/minecraft/class_2556;Lnet/minecraft/class_2561;Lnet/minecraft/class_7436;)V"
       },
       "com/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinClientPlayerEntity": {
         "sendChatMessage(Ljava/lang/String;)V": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
