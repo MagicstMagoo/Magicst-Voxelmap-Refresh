@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_16",
-  "package": "com.mamiyaotaru.voxelmap.fabricmod.mixins",
+  "package": "cn.magicst.mamiyaotaru.voxelmap.fabricmod.mixins",
   "target": "@env(DEFAULT)",
   "client": [
     "APIMixinChatListenerHud",
