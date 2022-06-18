@@ -1,5 +1,6 @@
  package cn.magicst.mamiyaotaru.voxelmap.gui;
  
+ import cn.magicst.mamiyaotaru.voxelmap.main
  import cn.magicst.mamiyaotaru.voxelmap.gui.overridden.GuiScreenMinimap;
  import cn.magicst.mamiyaotaru.voxelmap.gui.overridden.IPopupGuiScreen;
  import cn.magicst.mamiyaotaru.voxelmap.gui.overridden.Popup;
