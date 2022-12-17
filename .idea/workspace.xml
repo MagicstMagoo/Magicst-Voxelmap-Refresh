@@ -5,8 +5,165 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f73f3e7-00c9-4c25-85a8-a2286bed0b88" name="变更" comment="VoxelmapMainClass updata to 1.19.x | Actually, this is not a big change">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mamiyaotaru/voxelmap/ColorManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/ColorManager$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/ColorManager$ColorResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/ColorManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/MapSettingsManager$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/MapSettingsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/Radar$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/Radar$2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/Radar$ModelPartWithResourceLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/Radar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/RadarSettingsManager$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/RadarSettingsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/RadarSimple$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/RadarSimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/SettingsAndLightingChangeNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/VoxelMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/WaypointManager$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/WaypointManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/FabricModVoxelMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/Share.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinChatListenerHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinClientPlayerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinInGameHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinMinecraftClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/APIMixinNetHandlerPlayClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/MixinChatHud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/MixinWorldRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/ONMixinBackgroundRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/fabricmod/mixins/ONMixinWorldRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiAddWaypoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiButtonRowListPlayers$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiButtonRowListPlayers$Row.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiButtonRowListPlayers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiMinimapControls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiMinimapOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiMinimapPerformance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiMobs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiRadarOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSelectPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSlotDimensions$DimensionItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSlotDimensions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSlotMobs$MobItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSlotMobs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSlotWaypoints$WaypointItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSlotWaypoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSubworldEdit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiSubworldsSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiWaypoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/GuiWaypointsOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/IGuiWaypoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/EnumOptionsMinimap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/GuiButtonText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/GuiOptionButtonMinimap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/GuiOptionSliderMinimap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/GuiScreenMinimap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/GuiSlotMinimap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/IPopupGuiScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/Popup$PopupEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/Popup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/PopupGuiButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/gui/overridden/PopupGuiScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/AbstractMapData$BiomeLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/AbstractMapData$Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/AbstractMapData$Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/AbstractMapData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/AbstractVoxelMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IChangeObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IColorManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IDimensionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IGLBufferedImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IMapData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IPersistentMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IRadar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/ISettingsAndLightingChangeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/ISettingsAndLightingChangeNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/ISettingsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/ISubSettingsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IVoxelMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/interfaces/IWaypointManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/AbstractNotifyingRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CachedRegion$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CachedRegion$2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CachedRegion$3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CachedRegion$FillChunkRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CachedRegion$RefreshRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CachedRegion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/ComparisonCachedRegion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CompressibleGLBufferedImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/CompressibleMapData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/EmptyCachedRegion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/GuiPersistentMap$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/GuiPersistentMap$2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/GuiPersistentMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/GuiPersistentMapOptions$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/GuiPersistentMapOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/IThreadCompleteListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/PersistentMap$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/PersistentMap$ChunkWithAge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/PersistentMap$RegionCoordinates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/PersistentMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/PersistentMapSettingsManager$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/PersistentMapSettingsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/ThreadManager$NamedThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/ThreadManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/WorldMatcher$1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/persistent/WorldMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/FontRendererWithAtlas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/IIconCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/Stitcher$Holder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/Stitcher$Slot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/Stitcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/StitcherException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/TextureAtlas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/textures/TextureUtilLegacy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BackgroundImageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BiomeMapData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BiomeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BlockModel$BlockFace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BlockModel$BlockVertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BlockModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BlockRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/BlockStateParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/ColorUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/CommandUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/CompressionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/CustomMob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/CustomMobsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/DimensionContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/DimensionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/EnumMobs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/FullMapData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/GLBufferedImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/GLShim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/GLUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/GameVariableAccessShim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/I18nUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/LayoutVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/LiveGLBufferedImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/LiveScaledGLBufferedImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/MapChunk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/MapChunkCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/MapUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/ModelPartWithResourceLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/MutableBlockPos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/MutableNativeImageBackedTexture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/ReflectionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/ScaledMutableNativeImageBackedTexture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/TextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/TickCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/Waypoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/WaypointContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/magicst/mamiyaotaru/voxelmap/util/WorldUpdateListener.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +174,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,13 +198,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Build/Magicst-Voxelmap-Refresh&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Build/Magicst-Voxelmap-Refresh"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -44,6 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654223965601</updated>
+      <workItem from="1671256615455" duration="180000" />
     </task>
     <task id="LOCAL-00001" summary="updata 1.19-pre5">
       <created>1654224576749</created>
@@ -82,6 +253,9 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
